@@ -5,4 +5,9 @@ dependencies:
   - python=3.8
   - pip=20.1
   - pip:
-      - rpaframework
+      - rpaframework==28.6.0
+      - selenium==4.15.2
+      - openpyxl
+      - requests
+      - beautifulsoup4
+      - pandas

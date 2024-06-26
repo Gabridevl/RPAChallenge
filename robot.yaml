@@ -1,0 +1,11 @@
+tasks:
+  Default:
+    command:
+      - python
+      - -m
+      - tasks.main
+    robotPythonPath:
+      - tasks
+
+condaConfigFile: conda.yaml
+artifactsDir: output
